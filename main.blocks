@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="+TFrfbd:T@QoA~kIFswu">myImage</variable><variable id="A^n4b8|*6s@zTUI`*C^k">MIIMAGEN</variable></variables><block type="device_button_event" id="KKU@hfqv0c.(NzWMg2?I" x="-3" y="-144"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id="W~4Alw9QzY?{KgH7bTr/"><value name="text"><shadow type="text" id="H4NlS]+*MM~)5#luyBi,"><field name="TEXT">H</field></shadow></value></block></statement></block><block type="device_button_event" id="6}8I{Ho]+5ZC;UXhSu//" x="0" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_print_message" id="$tGqg/qN;mQxV,[^ri#b"><value name="text"><shadow type="text" id="!68J+bsf`H6;7D*%hZ`)"><field name="TEXT">Pablo Falero</field></shadow></value></block></statement></block><block type="device_button_event" id="j1Li(B_)H%f8j.MyPG@X" x="12" y="139"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="controls_repeat_ext" id="/M8ti5hMJe}P5CtMjLZx"><value name="TIMES"><shadow type="math_whole_number" id="9}hQch.rcsmiSaf;-[2."><field name="NUM">2</field></shadow></value><statement name="DO"><block type="device_show_leds" id="M:nWOWI~Ou%AQ/B-2$)Y"><field name="LEDS">`
+        . . . # . 
+        . . # . . 
+        . . # # # 
+        # # . . # 
+        # . . . .
+        `</field><next><block type="device_show_leds" id="DTh*5+S7%mX(*ejNTpB;"><field name="LEDS">`
+        . . . . # 
+        . . . # . 
+        . . # . . 
+        # # # # # 
+        . . . . #
+        `</field><next><block type="device_show_leds" id="Dg=BT6c4narB##=DlGM-"><field name="LEDS">`
+        . . . . # 
+        . . . # . 
+        . . # . . 
+        # # # # # 
+        # . . . #
+        `</field></block></next></block></next></block></statement></block></statement></block></xml>
